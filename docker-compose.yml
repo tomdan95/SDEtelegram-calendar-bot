@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+    googleOAuth2Interface:
+        build: ./GoogleOAuth2Interface
+    ports:
+      - 5001:5001
+    
+    telegramInterface:
+        build: ./TelegramInterface
+    
+    businessLogic:
+        build: ./BusinessLogic
