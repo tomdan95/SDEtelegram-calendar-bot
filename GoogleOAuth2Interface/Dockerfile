@@ -1,3 +1,3 @@
 FROM python:3-onbuild
 COPY . /usr/src/app
-CMD ["python", "BusinessLogic.py"]
+CMD ["python", "GoogleOAuth2Interface-main.py"]

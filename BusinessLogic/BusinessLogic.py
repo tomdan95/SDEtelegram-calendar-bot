@@ -108,5 +108,6 @@ class BusinessLogic():
             self.__runTelegramWebhooksLessMode()
 
 if __name__ == '__main__':
+    time.sleep(10)
     blg = BusinessLogic()
     blg.run()

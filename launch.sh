@@ -1,6 +1,4 @@
 #!/bin/bash
-python /GoogleOAuth2Interface\GoogleOAuth2Interface.py &
-sleep 5
-python /TelegramInterface\TelegramInterface.py &
-sleep 5
-python /BusinessLogic/BusinessLogic.py
+python3 GoogleOAuth2Interface/GoogleOAuth2Interface-main.py &
+python3 TelegramInterface/TelegramInterface_main.py &
+python3 BusinessLogic/BusinessLogic.py 
